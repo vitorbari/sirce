@@ -1,0 +1,114 @@
+.jumbotron {
+
+  @media (min-width: @screen-sm-min) {
+    padding: 80px 0px;
+    background-image: url('/img/background/6a093a9724351b8f41c079656096522f.jpg');
+    background-size: cover;
+    background-position-y: -150px;
+  }
+
+  .help-block {
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+
+/* ProfileCard */
+
+.ProfileCard {
+  position: relative;
+  padding: 8px;
+}
+
+.ProfileCard-avatar {
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  max-width: 35px;
+  max-height: 35px;
+  border: 1px solid #ccd6dd;
+  border-radius: 5px;
+}
+
+.ProfileCard:hover .ProfileCard-avatar {
+  border-color: #f5f8fa;
+}
+
+.ProfileCard-details {
+  min-height: 50px;
+  padding-left: 45px;
+}
+
+.ProfileCard-realName,
+.ProfileCard-screenName {
+  display: inline-block;
+}
+
+.ProfileCard-realName {
+  font-weight: 500;
+}
+
+.ProfileCard-screenName {
+  color: #8899a6;
+}
+
+.ProfileCard-description {
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.ProfileCard-stats {
+  float: right;
+  text-align: right;
+}
+
+.ProfileCard-stat {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.ProfileCard-stat-label {
+  color: #8899a6;
+  font-weight: 500;
+}
+
+.ProfileCard-stat + .ProfileCard-stat {
+  margin-left: 5px;
+}
+
+.ProfileCard:hover,
+.ProfileCard.is-active {
+  color: #fff;
+  background: #55acee;
+}
+
+.ProfileCard:hover .ProfileCard-screenName,
+.ProfileCard:hover .ProfileCard-stat-label,
+.ProfileCard.is-active .ProfileCard-screenName,
+.ProfileCard.is-active .ProfileCard-stat-label {
+  color: #fff;
+}
+
+/* EmptyMessage */
+
+.EmptyMessage {
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 10px;
+  text-align: center;
+}
+
+/* Loading */
+.typeahead-loading {
+  position: absolute;
+  top: 23px;
+  z-index: 30;
+  right: 30px;
+  display: none;
+}

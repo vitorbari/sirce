@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Sirce
+        psr4_prefix: Sirce
+        src_path: app

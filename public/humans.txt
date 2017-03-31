@@ -1,0 +1,10 @@
+/* TEAM */
+
+    Vitor Bari Buccianti
+    Email: vitor.bari [at] gmail.com
+    Location: Sao Paulo, Brazil
+
+/* SITE */
+
+    Doctype: HTML5
+    Components: Bootstrap, jQuery
