@@ -1,5 +1,6 @@
 /vendor
 /node_modules
 .env*
+!.env.example
 tests/_output/*
 composer.lock
